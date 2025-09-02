@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import LoginDialog from "./LoginDialog";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [loginOpen, setLoginOpen] = useState(false);
 
   const navItems = [
     { name: "Home", href: "#home" },
@@ -36,7 +38,7 @@ const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="sm">
+            <Button variant="ghost" size="sm" onClick={() => setLoginOpen(true)}>
               Login
             </Button>
             <Button variant="hero" size="sm">
@@ -71,7 +73,7 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="pt-4 space-y-2">
-                <Button variant="ghost" size="sm" className="w-full">
+                <Button variant="ghost" size="sm" className="w-full" onClick={() => setLoginOpen(true)}>
                   Login
                 </Button>
                 <Button variant="hero" size="sm" className="w-full">
@@ -82,6 +84,8 @@ const Navbar = () => {
           </div>
         )}
       </div>
+      
+      <LoginDialog open={loginOpen} onOpenChange={setLoginOpen} />
     </nav>
   );
 };
