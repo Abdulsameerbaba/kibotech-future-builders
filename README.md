@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/97dd0a64-7edd-4fc4-b4c0-ae29f64455b2) and start prompting.
+Simply visit the [kibotech Project](https://lovable.dev/projects/97dd0a64-7edd-4fc4-b4c0-ae29f64455b2) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -62,7 +62,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/97dd0a64-7edd-4fc4-b4c0-ae29f64455b2) and click on Share -> Publish.
+Simply open [kibotech](https://lovable.dev/projects/97dd0a64-7edd-4fc4-b4c0-ae29f64455b2) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
