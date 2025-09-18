@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to your Kibotech project
 
 ## Project info
 
@@ -8,9 +8,11 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**KiboTech**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/97dd0a64-7edd-4fc4-b4c0-ae29f64455b2) and start prompting.
+Simply visit the [Kibotech Project]
+(https://lovable.dev/projects/97dd0a64-7edd-4fc4-b4c0-ae29f64455b2) 
+and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
